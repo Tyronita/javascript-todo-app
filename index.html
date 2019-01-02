@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Todo Application</title>
+    </head>
+    <body>
+        <h1>Todos Application</h1>
+        <hr>
+            <h3>Filter Todos</h3>
+            <input type="text" id="search-filter" placeholder="Filter todos...">
+            <label>
+                Hide Completed Todos <input type="checkbox" id="hide-completed">
+            </label>
+            <div id="filtered-todos">
+                <!-- Filtered Todos-->
+            </div>
+        <hr>
+            <h1>Add Todo</h1>
+            <form id="create-todo-form">
+                <input type="text" placeholder="Write your task..." name="todoText">
+                <button>Add</button>
+            </form>
+        <script src="uuidv4.js"></script>
+        <script src="todo-functions.js"></script>
+        <script src='todo-app.js'></script>
+    </body>
+</html>
